@@ -47,7 +47,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 </head>
 <body>
   <div class="formRegis">
-    <h2>Registrasi Cerdas Finansial</h2>
+    <h2>Registrasi</h2>
     <form method="post">
       <label>Username:</label><br>
         <input type="text" name="username" required><br>
@@ -62,6 +62,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     </form>
     <p style="color:red;"><?php echo $message; ?></p>
     <p>Sudah punya akun? <a href="login.php">Login</a></p>
+    <p><a href="index.php">Back</a></p>
   </div>
 
   <script>

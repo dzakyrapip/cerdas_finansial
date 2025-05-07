@@ -19,7 +19,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             $_SESSION['username'] = $user['username'];
             $_SESSION['nama'] = $user['nama'];
             $_SESSION['saldo'] = $user['saldo'];
-            header("Location: index.php");
+            header("Location: dashboard.php");
             exit;
         } else {
             $message = "Password salah.";
@@ -46,7 +46,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 </head>
 <body>
     <div class="formLogin">
-        <h2>Login Cerdas Finansial</h2>
+        <h2>Login</h2>
         <form method="post">
             <label>Username:</label><br>
             <input type="text" name="username" required><br>
@@ -57,6 +57,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         </form>
         <p style="color:red;"><?php echo $message; ?></p>
         <p>Belum punya akun? <a href="register.php">Daftar</a></p>
+        <p><a href="index.php">Back</a></p>
     </div>
 
     <script>
