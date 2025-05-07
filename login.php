@@ -46,7 +46,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 </head>
 <body>
     <div class="formLogin">
-        <h2>Login</h2>
+        <h2>Login Cerdas Finansial</h2>
         <form method="post">
             <label>Username:</label><br>
             <input type="text" name="username" required><br>

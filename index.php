@@ -72,7 +72,11 @@ $hasilHistori = $histori->get_result();
             </div>
         <?php endif; ?>
 
-        <a href="logout.php" class="logout-button">Logout</a>
+        <div class="button-action">
+            <a href="download_excel.php" class="excel-button">Excel</a>
+            <a href="download_pdf.php" class="pdf-button">PDF</a>
+            <a href="logout.php" class="logout-button">Logout</a>
+        </div>
     </div>
 
     <div class="content">
