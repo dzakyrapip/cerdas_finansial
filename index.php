@@ -8,7 +8,7 @@
 </head>
 <body>
     <div class="header">
-        <h2>Selamat datang di <span style="color: #ffd700;">Cerdas Finansial</span>!</h2>
+        <h2>Selamat datang di <span style="color: #ffd700;">Cerdas Finansial💰</span>!</h2>
         <p class="sub">Cerdas Finansial adalah aplikasi web sederhana yang membantu pengguna dalam mencatat dan memantau keuangan pribadi. Pengguna dapat mencatat transaksi uang masuk maupun keluar, melihat histori transaksi secara ringkas maupun lengkap, serta memantau saldo secara real-time. Aplikasi ini dirancang untuk memberikan kemudahan dalam mengelola keuangan secara praktis dan terorganisir.</p>
     </div>
 
@@ -25,6 +25,7 @@
             <div class="histori">
                 <a href="register.php">Daftar</a>
                 <a href="login.php">Login</a>
+                <a href="https://www.instagram.com/zaki.rapip/" target="_blank">Support Author</a>
             </div>
         </div>
     </div>
