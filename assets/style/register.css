@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 * {
   margin: 0;
   padding: 0;
@@ -88,3 +89,93 @@ body {
 .formRegis a:hover {
   text-decoration: underline;
 }
+=======
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(to right, #4e54c8, #8f94fb);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.formRegis {
+  background-color: #ffffff;
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  width: 100%;
+  max-width: 400px;
+}
+
+.formRegis h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #333;
+}
+
+.formRegis label {
+  font-weight: bold;
+  color: #333;
+}
+
+.formRegis input[type="text"],
+.formRegis input[type="password"] {
+  width: 100%;
+  padding: 10px 12px;
+  margin: 8px 0 16px 0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-sizing: border-box;
+  transition: all 0.3s ease;
+}
+
+.formRegis input[type="text"]:focus,
+.formRegis input[type="password"]:focus {
+  border-color: #4e54c8;
+  outline: none;
+  box-shadow: 0 0 8px rgba(78, 84, 200, 0.3);
+}
+
+.formRegis input[type="checkbox"] {
+  margin-right: 8px;
+}
+
+.formRegis button {
+  width: 100%;
+  padding: 12px;
+  background-color: #4e54c8;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.formRegis button:hover {
+  background-color: #3d43a3;
+}
+
+.formRegis p {
+  margin-top: 15px;
+  text-align: center;
+}
+
+.formRegis a {
+  color: #4e54c8;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.formRegis a:hover {
+  text-decoration: underline;
+}
+>>>>>>> 5e6b652a43fd74e9a0df44d59348e619a49b6711
